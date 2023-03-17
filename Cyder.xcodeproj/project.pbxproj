@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A75D12129C4CB9900B19EC8 /* CyderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75D12029C4CB9900B19EC8 /* CyderApp.swift */; };
+		2A75D12529C4CB9A00B19EC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A75D12429C4CB9A00B19EC8 /* Assets.xcassets */; };
+		2A75D12829C4CB9A00B19EC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A75D12729C4CB9A00B19EC8 /* Preview Assets.xcassets */; };
+		2A75D13229C4CB9A00B19EC8 /* CyderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75D13129C4CB9A00B19EC8 /* CyderTests.swift */; };
+		2A75D13C29C4CB9A00B19EC8 /* CyderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75D13B29C4CB9A00B19EC8 /* CyderUITests.swift */; };
+		2A75D13E29C4CB9A00B19EC8 /* CyderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75D13D29C4CB9A00B19EC8 /* CyderUITestsLaunchTests.swift */; };
+		2A75D14C29C4D35F00B19EC8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A75D14B29C4D35F00B19EC8 /* GoogleService-Info.plist */; };
+		2A75D14F29C4D3B100B19EC8 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 2A75D14E29C4D3B100B19EC8 /* FirebaseAnalytics */; };
+		2A75D15129C4D3B100B19EC8 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2A75D15029C4D3B100B19EC8 /* FirebaseAnalyticsSwift */; };
+		2A75D15329C4D3B100B19EC8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2A75D15229C4D3B100B19EC8 /* FirebaseAuth */; };
+		2A75D15529C4D3B100B19EC8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2A75D15429C4D3B100B19EC8 /* FirebaseFirestore */; };
+		2A75D15729C4D3B100B19EC8 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2A75D15629C4D3B100B19EC8 /* FirebaseFirestoreSwift */; };
+		2A75D15A29C4F7BE00B19EC8 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75D15929C4F7BE00B19EC8 /* MainTabBar.swift */; };
+		2A75D15D29C4F7D100B19EC8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75D15C29C4F7D100B19EC8 /* HomeView.swift */; };
+		2A75D15F29C4F7DB00B19EC8 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75D15E29C4F7DB00B19EC8 /* DashboardView.swift */; };
+		2A75D16129C4F7E200B19EC8 /* OffersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75D16029C4F7E200B19EC8 /* OffersView.swift */; };
+		2A75D16329C4F7E900B19EC8 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75D16229C4F7E900B19EC8 /* SettingView.swift */; };
+		2A75D16629C4FB4F00B19EC8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75D16529C4FB4F00B19EC8 /* User.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A75D12E29C4CB9A00B19EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A75D11529C4CB9900B19EC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A75D11C29C4CB9900B19EC8;
+			remoteInfo = Cyder;
+		};
+		2A75D13829C4CB9A00B19EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A75D11529C4CB9900B19EC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A75D11C29C4CB9900B19EC8;
+			remoteInfo = Cyder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A75D11D29C4CB9900B19EC8 /* Cyder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cyder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A75D12029C4CB9900B19EC8 /* CyderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyderApp.swift; sourceTree = "<group>"; };
+		2A75D12429C4CB9A00B19EC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A75D12729C4CB9A00B19EC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A75D12D29C4CB9A00B19EC8 /* CyderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CyderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A75D13129C4CB9A00B19EC8 /* CyderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyderTests.swift; sourceTree = "<group>"; };
+		2A75D13729C4CB9A00B19EC8 /* CyderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CyderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A75D13B29C4CB9A00B19EC8 /* CyderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyderUITests.swift; sourceTree = "<group>"; };
+		2A75D13D29C4CB9A00B19EC8 /* CyderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2A75D14B29C4D35F00B19EC8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2A75D15929C4F7BE00B19EC8 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		2A75D15C29C4F7D100B19EC8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2A75D15E29C4F7DB00B19EC8 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		2A75D16029C4F7E200B19EC8 /* OffersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersView.swift; sourceTree = "<group>"; };
+		2A75D16229C4F7E900B19EC8 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		2A75D16529C4FB4F00B19EC8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A75D11A29C4CB9900B19EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A75D15729C4D3B100B19EC8 /* FirebaseFirestoreSwift in Frameworks */,
+				2A75D15129C4D3B100B19EC8 /* FirebaseAnalyticsSwift in Frameworks */,
+				2A75D15529C4D3B100B19EC8 /* FirebaseFirestore in Frameworks */,
+				2A75D15329C4D3B100B19EC8 /* FirebaseAuth in Frameworks */,
+				2A75D14F29C4D3B100B19EC8 /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A75D12A29C4CB9A00B19EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A75D13429C4CB9A00B19EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A75D11429C4CB9900B19EC8 = {
+			isa = PBXGroup;
+			children = (
+				2A75D11F29C4CB9900B19EC8 /* Cyder */,
+				2A75D13029C4CB9A00B19EC8 /* CyderTests */,
+				2A75D13A29C4CB9A00B19EC8 /* CyderUITests */,
+				2A75D11E29C4CB9900B19EC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A75D11E29C4CB9900B19EC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A75D11D29C4CB9900B19EC8 /* Cyder.app */,
+				2A75D12D29C4CB9A00B19EC8 /* CyderTests.xctest */,
+				2A75D13729C4CB9A00B19EC8 /* CyderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A75D11F29C4CB9900B19EC8 /* Cyder */ = {
+			isa = PBXGroup;
+			children = (
+				2A75D16429C4FB4600B19EC8 /* Model */,
+				2A75D15829C4F7B300B19EC8 /* View */,
+				2A75D14A29C4D35700B19EC8 /* Resources */,
+				2A75D12029C4CB9900B19EC8 /* CyderApp.swift */,
+				2A75D12429C4CB9A00B19EC8 /* Assets.xcassets */,
+				2A75D12629C4CB9A00B19EC8 /* Preview Content */,
+			);
+			path = Cyder;
+			sourceTree = "<group>";
+		};
+		2A75D12629C4CB9A00B19EC8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2A75D12729C4CB9A00B19EC8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2A75D13029C4CB9A00B19EC8 /* CyderTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A75D13129C4CB9A00B19EC8 /* CyderTests.swift */,
+			);
+			path = CyderTests;
+			sourceTree = "<group>";
+		};
+		2A75D13A29C4CB9A00B19EC8 /* CyderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A75D13B29C4CB9A00B19EC8 /* CyderUITests.swift */,
+				2A75D13D29C4CB9A00B19EC8 /* CyderUITestsLaunchTests.swift */,
+			);
+			path = CyderUITests;
+			sourceTree = "<group>";
+		};
+		2A75D14A29C4D35700B19EC8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A75D14B29C4D35F00B19EC8 /* GoogleService-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2A75D15829C4F7B300B19EC8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A75D15B29C4F7CA00B19EC8 /* Main */,
+				2A75D15929C4F7BE00B19EC8 /* MainTabBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A75D15B29C4F7CA00B19EC8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2A75D15C29C4F7D100B19EC8 /* HomeView.swift */,
+				2A75D15E29C4F7DB00B19EC8 /* DashboardView.swift */,
+				2A75D16029C4F7E200B19EC8 /* OffersView.swift */,
+				2A75D16229C4F7E900B19EC8 /* SettingView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2A75D16429C4FB4600B19EC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A75D16529C4FB4F00B19EC8 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A75D11C29C4CB9900B19EC8 /* Cyder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A75D14129C4CB9A00B19EC8 /* Build configuration list for PBXNativeTarget "Cyder" */;
+			buildPhases = (
+				2A75D11929C4CB9900B19EC8 /* Sources */,
+				2A75D11A29C4CB9900B19EC8 /* Frameworks */,
+				2A75D11B29C4CB9900B19EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cyder;
+			packageProductDependencies = (
+				2A75D14E29C4D3B100B19EC8 /* FirebaseAnalytics */,
+				2A75D15029C4D3B100B19EC8 /* FirebaseAnalyticsSwift */,
+				2A75D15229C4D3B100B19EC8 /* FirebaseAuth */,
+				2A75D15429C4D3B100B19EC8 /* FirebaseFirestore */,
+				2A75D15629C4D3B100B19EC8 /* FirebaseFirestoreSwift */,
+			);
+			productName = Cyder;
+			productReference = 2A75D11D29C4CB9900B19EC8 /* Cyder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A75D12C29C4CB9A00B19EC8 /* CyderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A75D14429C4CB9A00B19EC8 /* Build configuration list for PBXNativeTarget "CyderTests" */;
+			buildPhases = (
+				2A75D12929C4CB9A00B19EC8 /* Sources */,
+				2A75D12A29C4CB9A00B19EC8 /* Frameworks */,
+				2A75D12B29C4CB9A00B19EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A75D12F29C4CB9A00B19EC8 /* PBXTargetDependency */,
+			);
+			name = CyderTests;
+			productName = CyderTests;
+			productReference = 2A75D12D29C4CB9A00B19EC8 /* CyderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A75D13629C4CB9A00B19EC8 /* CyderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A75D14729C4CB9A00B19EC8 /* Build configuration list for PBXNativeTarget "CyderUITests" */;
+			buildPhases = (
+				2A75D13329C4CB9A00B19EC8 /* Sources */,
+				2A75D13429C4CB9A00B19EC8 /* Frameworks */,
+				2A75D13529C4CB9A00B19EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A75D13929C4CB9A00B19EC8 /* PBXTargetDependency */,
+			);
+			name = CyderUITests;
+			productName = CyderUITests;
+			productReference = 2A75D13729C4CB9A00B19EC8 /* CyderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A75D11529C4CB9900B19EC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2A75D11C29C4CB9900B19EC8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					2A75D12C29C4CB9A00B19EC8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2A75D11C29C4CB9900B19EC8;
+					};
+					2A75D13629C4CB9A00B19EC8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2A75D11C29C4CB9900B19EC8;
+					};
+				};
+			};
+			buildConfigurationList = 2A75D11829C4CB9900B19EC8 /* Build configuration list for PBXProject "Cyder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A75D11429C4CB9900B19EC8;
+			packageReferences = (
+				2A75D14D29C4D3B100B19EC8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 2A75D11E29C4CB9900B19EC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A75D11C29C4CB9900B19EC8 /* Cyder */,
+				2A75D12C29C4CB9A00B19EC8 /* CyderTests */,
+				2A75D13629C4CB9A00B19EC8 /* CyderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A75D11B29C4CB9900B19EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A75D14C29C4D35F00B19EC8 /* GoogleService-Info.plist in Resources */,
+				2A75D12829C4CB9A00B19EC8 /* Preview Assets.xcassets in Resources */,
+				2A75D12529C4CB9A00B19EC8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A75D12B29C4CB9A00B19EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A75D13529C4CB9A00B19EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A75D11929C4CB9900B19EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A75D15A29C4F7BE00B19EC8 /* MainTabBar.swift in Sources */,
+				2A75D15D29C4F7D100B19EC8 /* HomeView.swift in Sources */,
+				2A75D15F29C4F7DB00B19EC8 /* DashboardView.swift in Sources */,
+				2A75D16329C4F7E900B19EC8 /* SettingView.swift in Sources */,
+				2A75D16629C4FB4F00B19EC8 /* User.swift in Sources */,
+				2A75D16129C4F7E200B19EC8 /* OffersView.swift in Sources */,
+				2A75D12129C4CB9900B19EC8 /* CyderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A75D12929C4CB9A00B19EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A75D13229C4CB9A00B19EC8 /* CyderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A75D13329C4CB9A00B19EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A75D13E29C4CB9A00B19EC8 /* CyderUITestsLaunchTests.swift in Sources */,
+				2A75D13C29C4CB9A00B19EC8 /* CyderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A75D12F29C4CB9A00B19EC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A75D11C29C4CB9900B19EC8 /* Cyder */;
+			targetProxy = 2A75D12E29C4CB9A00B19EC8 /* PBXContainerItemProxy */;
+		};
+		2A75D13929C4CB9A00B19EC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A75D11C29C4CB9900B19EC8 /* Cyder */;
+			targetProxy = 2A75D13829C4CB9A00B19EC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A75D13F29C4CB9A00B19EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A75D14029C4CB9A00B19EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A75D14229C4CB9A00B19EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cyder/Preview Content\"";
+				DEVELOPMENT_TEAM = HNQ249579Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeeven.Cyder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A75D14329C4CB9A00B19EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cyder/Preview Content\"";
+				DEVELOPMENT_TEAM = HNQ249579Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeeven.Cyder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A75D14529C4CB9A00B19EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNQ249579Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeeven.CyderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cyder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cyder";
+			};
+			name = Debug;
+		};
+		2A75D14629C4CB9A00B19EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNQ249579Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeeven.CyderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cyder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cyder";
+			};
+			name = Release;
+		};
+		2A75D14829C4CB9A00B19EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNQ249579Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeeven.CyderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cyder;
+			};
+			name = Debug;
+		};
+		2A75D14929C4CB9A00B19EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNQ249579Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeeven.CyderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cyder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A75D11829C4CB9900B19EC8 /* Build configuration list for PBXProject "Cyder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A75D13F29C4CB9A00B19EC8 /* Debug */,
+				2A75D14029C4CB9A00B19EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A75D14129C4CB9A00B19EC8 /* Build configuration list for PBXNativeTarget "Cyder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A75D14229C4CB9A00B19EC8 /* Debug */,
+				2A75D14329C4CB9A00B19EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A75D14429C4CB9A00B19EC8 /* Build configuration list for PBXNativeTarget "CyderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A75D14529C4CB9A00B19EC8 /* Debug */,
+				2A75D14629C4CB9A00B19EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A75D14729C4CB9A00B19EC8 /* Build configuration list for PBXNativeTarget "CyderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A75D14829C4CB9A00B19EC8 /* Debug */,
+				2A75D14929C4CB9A00B19EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2A75D14D29C4D3B100B19EC8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2A75D14E29C4D3B100B19EC8 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A75D14D29C4D3B100B19EC8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		2A75D15029C4D3B100B19EC8 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A75D14D29C4D3B100B19EC8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		2A75D15229C4D3B100B19EC8 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A75D14D29C4D3B100B19EC8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		2A75D15429C4D3B100B19EC8 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A75D14D29C4D3B100B19EC8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		2A75D15629C4D3B100B19EC8 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A75D14D29C4D3B100B19EC8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2A75D11529C4CB9900B19EC8 /* Project object */;
+}
