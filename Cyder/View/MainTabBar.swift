@@ -8,25 +8,35 @@
 import SwiftUI
 
 struct MainTabBar: View {
+    
+    @State var selection = 0
+    
     var body: some View {
-        TabView {
+        TabView(selection: $selection) {
             
-            HomeView()
+            HomeView(selection: $selection)
                 .tabItem {
                     Label("Home", systemImage: "house.fill")
                 }
+                .tag(0)
             
             DashboardView()
                 .tabItem {
-                    Label("Dashboard", systemImage: "rectangle.3.group.fill")
+                    Label("Tasks", systemImage: "list.bullet.clipboard.fill")
                 }
+                .tag(1)
             
-            
+            OffersView()
+                .tabItem {
+                    Label("Rewards", systemImage: "tag.fill")
+                }
+                .tag(2)
             
             SettingView()
                 .tabItem {
-                    Label("Settings", systemImage: "gear")
+                    Label("Data Control", systemImage: "lock.fill")
                 }
+                .tag(3)
             
             
         }

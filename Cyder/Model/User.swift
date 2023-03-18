@@ -7,8 +7,13 @@
 
 import Foundation
 class User: ObservableObject {
+    static let shared = User()
     
-    @Published var email = ""
+    
+    private init() {
+    }
+    
+    @Published var points = 1400
     
     
     

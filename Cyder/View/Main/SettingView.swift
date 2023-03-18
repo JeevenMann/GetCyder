@@ -35,7 +35,6 @@ struct SettingView: View {
     @State var blockCookies = ["drive.google.com", "www.dropbox.com"]
     @State var blockCookiesText = ""
     @State var doNotTrackText = ""
-    
     @State var secureBrowserToggle = false
     @State var blockThirdPartyCookies = false
     @State var disableSandbox = false
@@ -46,7 +45,6 @@ struct SettingView: View {
     @State var consumerBrands = false
     @State var healthcareProviders = false
     @State var technologyCompanies = false
-
     @State var newRewards = false
     @State var communityAnnouncements = false
 

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A48983929C527E200BBFFF9 /* CircularProgress in Frameworks */ = {isa = PBXBuildFile; productRef = 2A48983829C527E200BBFFF9 /* CircularProgress */; };
+		2A48983B29C5366F00BBFFF9 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A48983A29C5366F00BBFFF9 /* Color+.swift */; };
+		2A48983D29C537EC00BBFFF9 /* GiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A48983C29C537EC00BBFFF9 /* GiftView.swift */; };
+		2A48983F29C53CAB00BBFFF9 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A48983E29C53CAB00BBFFF9 /* Company.swift */; };
+		2A48984129C552E500BBFFF9 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A48984029C552E500BBFFF9 /* CheckBox.swift */; };
+		2A48984329C555CA00BBFFF9 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A48984229C555CA00BBFFF9 /* TaskView.swift */; };
 		2A75D12129C4CB9900B19EC8 /* CyderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75D12029C4CB9900B19EC8 /* CyderApp.swift */; };
 		2A75D12529C4CB9A00B19EC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A75D12429C4CB9A00B19EC8 /* Assets.xcassets */; };
 		2A75D12829C4CB9A00B19EC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A75D12729C4CB9A00B19EC8 /* Preview Assets.xcassets */; };
@@ -47,6 +53,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A48983A29C5366F00BBFFF9 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		2A48983C29C537EC00BBFFF9 /* GiftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftView.swift; sourceTree = "<group>"; };
+		2A48983E29C53CAB00BBFFF9 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		2A48984029C552E500BBFFF9 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		2A48984229C555CA00BBFFF9 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 		2A75D11D29C4CB9900B19EC8 /* Cyder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cyder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A75D12029C4CB9900B19EC8 /* CyderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyderApp.swift; sourceTree = "<group>"; };
 		2A75D12429C4CB9A00B19EC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -74,6 +85,7 @@
 			files = (
 				2A75D15729C4D3B100B19EC8 /* FirebaseFirestoreSwift in Frameworks */,
 				2A75D15129C4D3B100B19EC8 /* FirebaseAnalyticsSwift in Frameworks */,
+				2A48983929C527E200BBFFF9 /* CircularProgress in Frameworks */,
 				2A75D15529C4D3B100B19EC8 /* FirebaseFirestore in Frameworks */,
 				2A75D15329C4D3B100B19EC8 /* FirebaseAuth in Frameworks */,
 				2A75D14F29C4D3B100B19EC8 /* FirebaseAnalytics in Frameworks */,
@@ -126,6 +138,7 @@
 				2A75D12029C4CB9900B19EC8 /* CyderApp.swift */,
 				2A75D12429C4CB9A00B19EC8 /* Assets.xcassets */,
 				2A75D12629C4CB9A00B19EC8 /* Preview Content */,
+				2A48983A29C5366F00BBFFF9 /* Color+.swift */,
 			);
 			path = Cyder;
 			sourceTree = "<group>";
@@ -168,6 +181,9 @@
 			children = (
 				2A75D15B29C4F7CA00B19EC8 /* Main */,
 				2A75D15929C4F7BE00B19EC8 /* MainTabBar.swift */,
+				2A48983C29C537EC00BBFFF9 /* GiftView.swift */,
+				2A48984029C552E500BBFFF9 /* CheckBox.swift */,
+				2A48984229C555CA00BBFFF9 /* TaskView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -189,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				2A75D16529C4FB4F00B19EC8 /* User.swift */,
+				2A48983E29C53CAB00BBFFF9 /* Company.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -215,6 +232,7 @@
 				2A75D15229C4D3B100B19EC8 /* FirebaseAuth */,
 				2A75D15429C4D3B100B19EC8 /* FirebaseFirestore */,
 				2A75D15629C4D3B100B19EC8 /* FirebaseFirestoreSwift */,
+				2A48983829C527E200BBFFF9 /* CircularProgress */,
 			);
 			productName = Cyder;
 			productReference = 2A75D11D29C4CB9900B19EC8 /* Cyder.app */;
@@ -290,6 +308,7 @@
 			mainGroup = 2A75D11429C4CB9900B19EC8;
 			packageReferences = (
 				2A75D14D29C4D3B100B19EC8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				2A48983729C527E200BBFFF9 /* XCRemoteSwiftPackageReference "CircularProgressSwiftUI" */,
 			);
 			productRefGroup = 2A75D11E29C4CB9900B19EC8 /* Products */;
 			projectDirPath = "";
@@ -335,7 +354,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D9E0FDB29C529D0006CBE84 /* ProfileView.swift in Sources */,
+				2A48983D29C537EC00BBFFF9 /* GiftView.swift in Sources */,
 				2A75D15A29C4F7BE00B19EC8 /* MainTabBar.swift in Sources */,
+				2A48983B29C5366F00BBFFF9 /* Color+.swift in Sources */,
+				2A48984329C555CA00BBFFF9 /* TaskView.swift in Sources */,
+				2A48984129C552E500BBFFF9 /* CheckBox.swift in Sources */,
+				2A48983F29C53CAB00BBFFF9 /* Company.swift in Sources */,
 				2A75D15D29C4F7D100B19EC8 /* HomeView.swift in Sources */,
 				2A75D15F29C4F7DB00B19EC8 /* DashboardView.swift in Sources */,
 				7D9E0FDF29C54572006CBE84 /* Demographicview.swift in Sources */,
@@ -509,6 +533,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -538,6 +563,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -669,6 +695,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		2A48983729C527E200BBFFF9 /* XCRemoteSwiftPackageReference "CircularProgressSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ArnavMotwani/CircularProgressSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		2A75D14D29C4D3B100B19EC8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
@@ -680,6 +714,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		2A48983829C527E200BBFFF9 /* CircularProgress */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A48983729C527E200BBFFF9 /* XCRemoteSwiftPackageReference "CircularProgressSwiftUI" */;
+			productName = CircularProgress;
+		};
 		2A75D14E29C4D3B100B19EC8 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 2A75D14D29C4D3B100B19EC8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
