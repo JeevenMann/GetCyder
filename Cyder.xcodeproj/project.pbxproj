@@ -98,6 +98,7 @@
 		2A48985629C5FBEA00BBFFF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A48985829C5FBEA00BBFFF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A48986229C6030B00BBFFF9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		2A48986429C605D500BBFFF9 /* Cyder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cyder.entitlements; sourceTree = "<group>"; };
 		2A75D11D29C4CB9900B19EC8 /* Cyder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cyder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A75D12029C4CB9900B19EC8 /* CyderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyderApp.swift; sourceTree = "<group>"; };
 		2A75D12429C4CB9A00B19EC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -205,6 +206,7 @@
 		2A75D11F29C4CB9900B19EC8 /* Cyder */ = {
 			isa = PBXGroup;
 			children = (
+				2A48986429C605D500BBFFF9 /* Cyder.entitlements */,
 				2A75D16429C4FB4600B19EC8 /* Model */,
 				2A75D15829C4F7B300B19EC8 /* View */,
 				2A75D14A29C4D35700B19EC8 /* Resources */,
@@ -698,6 +700,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Cyder/Cyder.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Cyder/Preview Content\"";
@@ -729,6 +732,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Cyder/Cyder.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Cyder/Preview Content\"";

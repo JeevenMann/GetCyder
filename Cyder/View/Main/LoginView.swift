@@ -69,7 +69,7 @@ struct LoginView: View {
                 }
                 
             })
-            .signInWithAppleButtonStyle(.whiteOutline)
+            .signInWithAppleButtonStyle(.black)
             .frame(maxWidth: .infinity, maxHeight: 45)
            
             
