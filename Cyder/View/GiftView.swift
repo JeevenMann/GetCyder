@@ -26,13 +26,20 @@ struct GiftView: View {
                 .fixedSize(horizontal: true, vertical: true)
             Spacer()
             VStack(alignment: .trailing) {
-                if company.companyName == "Joe's Coffee" {
+                if company.companyName == "XYZ Charity" {
+                    Text("**Donate $10 to XYZ Charity**")
+                        .font(.subheadline)
+                } else if company.companyName == "Joe's Coffee" {
                     Text("**Free medium coffee from Joe's Coffee**")
                         .font(.subheadline)
                 } else if giftType == .convert && company.companyName == "Airmiles" {
                     Text("**Convert 1000 Points into 100 Airmiles**")
+                        .font(.subheadline)
+
                 } else if giftType == .convert && company.companyName == "Scene" {
                     Text("**Convert 1000 Points into 100 Scene Points**")
+                        .font(.subheadline)
+
                 } else {
                     Text("**$\(company.cardValue) \(company.companyName) Gift Card**")
                         .font(.subheadline)

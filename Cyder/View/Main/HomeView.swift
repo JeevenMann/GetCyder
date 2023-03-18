@@ -21,19 +21,39 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Image("Cyder")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 100)
-                    .scaledToFit()
-                
+                HStack(spacing: 0) {
+                    EmptyView()
+                    Spacer()
+                    Image("Cyder")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 100)
+                        .scaledToFit()
+                        .padding([.leading], 10)
+                    Spacer()
+                 NavigationLink(destination: ProfileView(), label: {
+                     Image("prof")
+                         .resizable()
+                         .frame(width: 40, height: 40)
+                         .scaledToFit()
+                         .clipShape(Circle())
+                 })
+                    
+                }
                 VStack(alignment: .center) {
                     HStack {
-                        Image("tokens")
-                            .resizable()
-                            .frame(width: 34, height: 34)
-                        Text("**\(user.points)** Tokens Collected")
-                            .font(.title)
+                        
+                        VStack(alignment: .center) {
+                            HStack {
+                                Image("tokens")
+                                    .resizable()
+                                    .frame(width: 34, height: 34)
+                                Text("**\(user.points)**")
+                                    .font(.largeTitle)
+                            }
+                            Text("Tokens Collected")
+                                .font(.title)
+                        }
                     }
                 }
                 Divider()
@@ -48,7 +68,7 @@ struct HomeView: View {
                         selection = 2
                     }, label: {
                         Text("View More")
-                            .padding(7)
+                            .padding(6)
                             .background(Color.mainColor)
                             .cornerRadius(10)
                             .foregroundColor(.white)
@@ -73,7 +93,7 @@ struct HomeView: View {
                         selection = 1
                     }, label: {
                         Text("View More")
-                            .padding(7)
+                            .padding(6)
                             .background(Color.mainColor)
                             .cornerRadius(10)
                             .foregroundColor(.white)
@@ -91,9 +111,12 @@ struct HomeView: View {
                         Image("tracker")
                             .resizable()
                             .frame(width: 34, height: 34)
-
-                        Text("**170** Trackers Blocked")
-                            .font(.title)
+                        HStack(spacing: 0) {
+                            Text("**170**")
+                                .font(.largeTitle)
+                            Text(" Trackers Blocked")
+                                .font(.title)
+                        }
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding([.top, .bottom])
@@ -102,9 +125,12 @@ struct HomeView: View {
                         Image("ads")
                             .resizable()
                             .frame(width: 34, height: 34)
-
-                        Text("**143** Ads Blocked")
-                            .font(.title)
+                        HStack(spacing: 0) {
+                            Text("**143**")
+                                .font(.largeTitle)
+                            Text(" Ads Blocked")
+                                .font(.title)
+                        }
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
 

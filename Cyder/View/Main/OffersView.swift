@@ -50,6 +50,8 @@ struct OffersView: View {
                     .foregroundColor(.mainColor)
                 
                 GiftView(company: Company(companyName: "Amazon", cardValue: 10, pointValue: 3000), giftType: .circular)
+                
+                GiftView(company: Company(companyName: "XYZ Charity", cardValue: 10, pointValue: 1500))
                 Divider()
             }
             
