@@ -13,6 +13,16 @@
 		2A48983F29C53CAB00BBFFF9 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A48983E29C53CAB00BBFFF9 /* Company.swift */; };
 		2A48984129C552E500BBFFF9 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A48984029C552E500BBFFF9 /* CheckBox.swift */; };
 		2A48984329C555CA00BBFFF9 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A48984229C555CA00BBFFF9 /* TaskView.swift */; };
+		2A48984B29C5FBE900BBFFF9 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A48984A29C5FBE900BBFFF9 /* WidgetKit.framework */; };
+		2A48984D29C5FBE900BBFFF9 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A48984C29C5FBE900BBFFF9 /* SwiftUI.framework */; };
+		2A48985029C5FBE900BBFFF9 /* CyderWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A48984F29C5FBE900BBFFF9 /* CyderWidgetBundle.swift */; };
+		2A48985229C5FBE900BBFFF9 /* CyderWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A48985129C5FBE900BBFFF9 /* CyderWidgetLiveActivity.swift */; };
+		2A48985429C5FBE900BBFFF9 /* CyderWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A48985329C5FBE900BBFFF9 /* CyderWidget.swift */; };
+		2A48985729C5FBEA00BBFFF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A48985629C5FBEA00BBFFF9 /* Assets.xcassets */; };
+		2A48985929C5FBEA00BBFFF9 /* CyderWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2A48985529C5FBE900BBFFF9 /* CyderWidget.intentdefinition */; };
+		2A48985A29C5FBEA00BBFFF9 /* CyderWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2A48985529C5FBE900BBFFF9 /* CyderWidget.intentdefinition */; };
+		2A48985D29C5FBEA00BBFFF9 /* CyderWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2A48984829C5FBE900BBFFF9 /* CyderWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2A48986329C6030B00BBFFF9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A48986229C6030B00BBFFF9 /* LoginView.swift */; };
 		2A75D12129C4CB9900B19EC8 /* CyderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75D12029C4CB9900B19EC8 /* CyderApp.swift */; };
 		2A75D12529C4CB9A00B19EC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A75D12429C4CB9A00B19EC8 /* Assets.xcassets */; };
 		2A75D12829C4CB9A00B19EC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A75D12729C4CB9A00B19EC8 /* Preview Assets.xcassets */; };
@@ -35,6 +45,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2A48985B29C5FBEA00BBFFF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A75D11529C4CB9900B19EC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A48984729C5FBE900BBFFF9;
+			remoteInfo = CyderWidgetExtension;
+		};
 		2A75D12E29C4CB9A00B19EC8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2A75D11529C4CB9900B19EC8 /* Project object */;
@@ -51,12 +68,36 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2A48986129C5FBEA00BBFFF9 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2A48985D29C5FBEA00BBFFF9 /* CyderWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		2A48983A29C5366F00BBFFF9 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		2A48983C29C537EC00BBFFF9 /* GiftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftView.swift; sourceTree = "<group>"; };
 		2A48983E29C53CAB00BBFFF9 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		2A48984029C552E500BBFFF9 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		2A48984229C555CA00BBFFF9 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		2A48984829C5FBE900BBFFF9 /* CyderWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CyderWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A48984A29C5FBE900BBFFF9 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		2A48984C29C5FBE900BBFFF9 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		2A48984F29C5FBE900BBFFF9 /* CyderWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyderWidgetBundle.swift; sourceTree = "<group>"; };
+		2A48985129C5FBE900BBFFF9 /* CyderWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyderWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		2A48985329C5FBE900BBFFF9 /* CyderWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyderWidget.swift; sourceTree = "<group>"; };
+		2A48985529C5FBE900BBFFF9 /* CyderWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = CyderWidget.intentdefinition; sourceTree = "<group>"; };
+		2A48985629C5FBEA00BBFFF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A48985829C5FBEA00BBFFF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A48986229C6030B00BBFFF9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		2A75D11D29C4CB9900B19EC8 /* Cyder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cyder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A75D12029C4CB9900B19EC8 /* CyderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyderApp.swift; sourceTree = "<group>"; };
 		2A75D12429C4CB9A00B19EC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -77,6 +118,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2A48984529C5FBE900BBFFF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A48984D29C5FBE900BBFFF9 /* SwiftUI.framework in Frameworks */,
+				2A48984B29C5FBE900BBFFF9 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2A75D11A29C4CB9900B19EC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -107,12 +157,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A48984929C5FBE900BBFFF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A48984A29C5FBE900BBFFF9 /* WidgetKit.framework */,
+				2A48984C29C5FBE900BBFFF9 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A48984E29C5FBE900BBFFF9 /* CyderWidget */ = {
+			isa = PBXGroup;
+			children = (
+				2A48984F29C5FBE900BBFFF9 /* CyderWidgetBundle.swift */,
+				2A48985129C5FBE900BBFFF9 /* CyderWidgetLiveActivity.swift */,
+				2A48985329C5FBE900BBFFF9 /* CyderWidget.swift */,
+				2A48985529C5FBE900BBFFF9 /* CyderWidget.intentdefinition */,
+				2A48985629C5FBEA00BBFFF9 /* Assets.xcassets */,
+				2A48985829C5FBEA00BBFFF9 /* Info.plist */,
+			);
+			path = CyderWidget;
+			sourceTree = "<group>";
+		};
 		2A75D11429C4CB9900B19EC8 = {
 			isa = PBXGroup;
 			children = (
 				2A75D11F29C4CB9900B19EC8 /* Cyder */,
 				2A75D13029C4CB9A00B19EC8 /* CyderTests */,
 				2A75D13A29C4CB9A00B19EC8 /* CyderUITests */,
+				2A48984E29C5FBE900BBFFF9 /* CyderWidget */,
+				2A48984929C5FBE900BBFFF9 /* Frameworks */,
 				2A75D11E29C4CB9900B19EC8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,6 +197,7 @@
 				2A75D11D29C4CB9900B19EC8 /* Cyder.app */,
 				2A75D12D29C4CB9A00B19EC8 /* CyderTests.xctest */,
 				2A75D13729C4CB9A00B19EC8 /* CyderUITests.xctest */,
+				2A48984829C5FBE900BBFFF9 /* CyderWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -194,6 +269,7 @@
 				2A75D16029C4F7E200B19EC8 /* OffersView.swift */,
 				2A75D16229C4F7E900B19EC8 /* SettingView.swift */,
 				7D9E0FDA29C529D0006CBE84 /* ProfileView.swift */,
+				2A48986229C6030B00BBFFF9 /* LoginView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -210,6 +286,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2A48984729C5FBE900BBFFF9 /* CyderWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A48985E29C5FBEA00BBFFF9 /* Build configuration list for PBXNativeTarget "CyderWidgetExtension" */;
+			buildPhases = (
+				2A48984429C5FBE900BBFFF9 /* Sources */,
+				2A48984529C5FBE900BBFFF9 /* Frameworks */,
+				2A48984629C5FBE900BBFFF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CyderWidgetExtension;
+			productName = CyderWidgetExtension;
+			productReference = 2A48984829C5FBE900BBFFF9 /* CyderWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		2A75D11C29C4CB9900B19EC8 /* Cyder */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A75D14129C4CB9A00B19EC8 /* Build configuration list for PBXNativeTarget "Cyder" */;
@@ -217,10 +310,12 @@
 				2A75D11929C4CB9900B19EC8 /* Sources */,
 				2A75D11A29C4CB9900B19EC8 /* Frameworks */,
 				2A75D11B29C4CB9900B19EC8 /* Resources */,
+				2A48986129C5FBEA00BBFFF9 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2A48985C29C5FBEA00BBFFF9 /* PBXTargetDependency */,
 			);
 			name = Cyder;
 			packageProductDependencies = (
@@ -281,6 +376,9 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					2A48984729C5FBE900BBFFF9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					2A75D11C29C4CB9900B19EC8 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -314,11 +412,20 @@
 				2A75D11C29C4CB9900B19EC8 /* Cyder */,
 				2A75D12C29C4CB9A00B19EC8 /* CyderTests */,
 				2A75D13629C4CB9A00B19EC8 /* CyderUITests */,
+				2A48984729C5FBE900BBFFF9 /* CyderWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2A48984629C5FBE900BBFFF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A48985729C5FBEA00BBFFF9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2A75D11B29C4CB9900B19EC8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -346,12 +453,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2A48984429C5FBE900BBFFF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A48985929C5FBEA00BBFFF9 /* CyderWidget.intentdefinition in Sources */,
+				2A48985229C5FBE900BBFFF9 /* CyderWidgetLiveActivity.swift in Sources */,
+				2A48985429C5FBE900BBFFF9 /* CyderWidget.swift in Sources */,
+				2A48985029C5FBE900BBFFF9 /* CyderWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2A75D11929C4CB9900B19EC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A48985A29C5FBEA00BBFFF9 /* CyderWidget.intentdefinition in Sources */,
 				7D9E0FDB29C529D0006CBE84 /* ProfileView.swift in Sources */,
 				2A48983D29C537EC00BBFFF9 /* GiftView.swift in Sources */,
+				2A48986329C6030B00BBFFF9 /* LoginView.swift in Sources */,
 				2A75D15A29C4F7BE00B19EC8 /* MainTabBar.swift in Sources */,
 				2A48983B29C5366F00BBFFF9 /* Color+.swift in Sources */,
 				2A48984329C555CA00BBFFF9 /* TaskView.swift in Sources */,
@@ -386,6 +506,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2A48985C29C5FBEA00BBFFF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A48984729C5FBE900BBFFF9 /* CyderWidgetExtension */;
+			targetProxy = 2A48985B29C5FBEA00BBFFF9 /* PBXContainerItemProxy */;
+		};
 		2A75D12F29C4CB9A00B19EC8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2A75D11C29C4CB9900B19EC8 /* Cyder */;
@@ -399,6 +524,60 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2A48985F29C5FBEA00BBFFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNQ249579Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CyderWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CyderWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeeven.Cyder.CyderWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A48986029C5FBEA00BBFFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNQ249579Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CyderWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CyderWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeeven.Cyder.CyderWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		2A75D13F29C4CB9A00B19EC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -516,6 +695,7 @@
 		2A75D14229C4CB9A00B19EC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +726,7 @@
 		2A75D14329C4CB9A00B19EC8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -652,6 +833,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2A48985E29C5FBEA00BBFFF9 /* Build configuration list for PBXNativeTarget "CyderWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A48985F29C5FBEA00BBFFF9 /* Debug */,
+				2A48986029C5FBEA00BBFFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2A75D11829C4CB9900B19EC8 /* Build configuration list for PBXProject "Cyder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

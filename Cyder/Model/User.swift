@@ -6,6 +6,9 @@
 //
 
 import Foundation
+enum UserType {
+    case anon, signedIn
+}
 class User: ObservableObject {
     static let shared = User()
     
@@ -14,7 +17,7 @@ class User: ObservableObject {
     }
     
     @Published var points = 1400
-    
+    @Published var userType: UserType = .anon
     
     
 }

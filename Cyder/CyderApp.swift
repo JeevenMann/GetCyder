@@ -22,11 +22,15 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 @main
 struct CyderApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @ObservedObject var user = User.shared
     var body: some Scene {
         WindowGroup {
             
-        
+            if user.userType == .signedIn {
                 MainTabBar()
+            } else {
+                    LoginView()
+            }
             
             
             
