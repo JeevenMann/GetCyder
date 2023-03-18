@@ -25,6 +25,8 @@
 		2A75D16129C4F7E200B19EC8 /* OffersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75D16029C4F7E200B19EC8 /* OffersView.swift */; };
 		2A75D16329C4F7E900B19EC8 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75D16229C4F7E900B19EC8 /* SettingView.swift */; };
 		2A75D16629C4FB4F00B19EC8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75D16529C4FB4F00B19EC8 /* User.swift */; };
+		7D9E0FDB29C529D0006CBE84 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9E0FDA29C529D0006CBE84 /* ProfileView.swift */; };
+		7D9E0FDF29C54572006CBE84 /* Demographicview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9E0FDE29C54572006CBE84 /* Demographicview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		2A75D16029C4F7E200B19EC8 /* OffersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersView.swift; sourceTree = "<group>"; };
 		2A75D16229C4F7E900B19EC8 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		2A75D16529C4FB4F00B19EC8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7D9E0FDA29C529D0006CBE84 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		7D9E0FDE29C54572006CBE84 /* Demographicview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demographicview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +179,8 @@
 				2A75D15E29C4F7DB00B19EC8 /* DashboardView.swift */,
 				2A75D16029C4F7E200B19EC8 /* OffersView.swift */,
 				2A75D16229C4F7E900B19EC8 /* SettingView.swift */,
+				7D9E0FDA29C529D0006CBE84 /* ProfileView.swift */,
+				7D9E0FDE29C54572006CBE84 /* Demographicview.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -328,9 +334,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D9E0FDB29C529D0006CBE84 /* ProfileView.swift in Sources */,
 				2A75D15A29C4F7BE00B19EC8 /* MainTabBar.swift in Sources */,
 				2A75D15D29C4F7D100B19EC8 /* HomeView.swift in Sources */,
 				2A75D15F29C4F7DB00B19EC8 /* DashboardView.swift in Sources */,
+				7D9E0FDF29C54572006CBE84 /* Demographicview.swift in Sources */,
 				2A75D16329C4F7E900B19EC8 /* SettingView.swift in Sources */,
 				2A75D16629C4FB4F00B19EC8 /* User.swift in Sources */,
 				2A75D16129C4F7E200B19EC8 /* OffersView.swift in Sources */,

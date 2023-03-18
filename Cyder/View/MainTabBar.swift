@@ -21,10 +21,7 @@ struct MainTabBar: View {
                     Label("Dashboard", systemImage: "rectangle.3.group.fill")
                 }
             
-            OffersView()
-                .tabItem {
-                    Label("Offers", systemImage: "tag.fill")
-                }
+            
             
             SettingView()
                 .tabItem {
